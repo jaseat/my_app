@@ -4,7 +4,8 @@
   "description": "My App",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "npx tsx ./src/server/app.ts"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/jaseat/my_app/issues"
   },
-  "homepage": "https://github.com/jaseat/my_app#readme"
+  "homepage": "https://github.com/jaseat/my_app#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
 }
